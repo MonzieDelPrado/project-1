@@ -1,0 +1,58 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  padding: 100px 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #000; /* Black background to match the hero section */
+  box-sizing: border-box;
+}
+
+.hero-text {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.highlight {
+  color: #00FF00; /* Highlight color */
+}
+
+.hero-description {
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.primary {
+  background-color: #007BFF;
+  color: white;
+}
+
+.secondary {
+  background-color: #6C757D;
+  color: white;
+}
